@@ -665,8 +665,8 @@ With this adjustment, we can reuse our workflow on the data, and analyze and vis
 > 1. Open the **workflow menu** (top menu bar).
 >    - Find the workflow you made in the previous section,
 >    - Select the option `Run`.
->    - The central panel will change to allow you to configure and launch the workflow.
->
+>    - The central panel will change to allow you to configure and launch the workflow. To do that choose the menu "expand to full workflow form".
+>    
 > 2. Select the `diamonds` dataset as the input dataset.
 >
 > 3. Customize the first scatter plot:
