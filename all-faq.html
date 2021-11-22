@@ -47,8 +47,44 @@
                         <a class="nav-link" href="/training-material/hall-of-fame" title="Hall of Fame">
                            <i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span> Contributors
                         </a>
+
                         
                     </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Languages">
+                            <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Languages
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            
+                              <strong class="dropdown-header">Automatic Translations</strong>
+            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
+                            Français
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
+                            日本語
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
+                            Español
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
+                            Português
+                            </a>
+                            
+            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
+                            العربية
+                            </a>
+                            
+                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url" title="">
+                            And more!
+                            </a>
+                        </div>
+                    </li>
+
                     <li class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Help">
         <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">help</span> Help
@@ -100,41 +136,6 @@
                 <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN feedback
             </a>
         
-
-        <div class="dropdown-item">
-            <div>
-                <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Translate this page
-            </div>
-
-            <div id="lang-selector">
-                
-                <strong>Automatic Translations</strong>
-
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
-                Français
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
-                日本語
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
-                Español
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
-                Português
-                </a>
-                
-<a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url">
-                العربية
-                </a>
-                
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org/all-faq.html&edit-text=&act=url" title="">
-                And more!
-                </a>
-            </div>
-        </div>
 
         <div class="dropdown-item">
             <div>
@@ -252,6 +253,48 @@
 
 
  <br><br> 
+<h2 id="DESeq2"> <a href="#DESeq2"> Deseq2 </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> Regarding DESeq2, in the tutorial you used the normalised count table. Some people use VST normalised counts or rlog normalised counts for visualisation (heatmaps),  would you recommend it ? And second question, regarding the heatmap2, I think this depends on the data you analyse but do you have any advise on how to select the clustering method and the distance method? <a href="/training-material/topics/transcriptomics/tutorials/ref-based/faqs/deseq2.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-regarding-deseq2-in-the-tutorial-you-used-the-normalised-count-table-some-people-use-vst-normalised-counts-or-rlog-normalised-counts-for-visualisation-heatmaps--would-you-recommend-it--and-second-question-regarding-the-heatmap2-i-think-this-depends-on-the-data-you-analyse-but-do-you-have-any-advise-on-how-to-select-the-clustering-method-and-the-distance-method"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Regarding DESeq2, in the tutorial you used the normalised count table. Some people use VST normalised counts or rlog normalised counts for visualisation (heatmaps),  would you recommend it ? And second question, regarding the heatmap2, I think this depends on the data you analyse but do you have any advise on how to select the clustering method and the distance method?</h3>  <p>this depends on what you would like to do with the table. The DESeq2 wrapper in <span class="notranslate">Galaxy</span> can output all of these, and there is a nice discussion in the <a href="http://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#count-data-transformations">DESeq2 vignette</a> about this topic.</p></blockquote>
+
+
+
+
+
+ <br><br> 
+<h2 id="De novo transcriptome reconstruction with RNA-Seq"> <a href="#De novo transcriptome reconstruction with RNA-Seq"> De novo transcriptome reconstruction with <span class="notranslate">rna</span>-seq </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> I’m using the same training data, tools, and parameters as the tutorial, but I get a different number of transcripts with a significant change in gene <span class="notranslate">expression</span> between the G1E and megakaryocyte cellular states. Why? <a href="/training-material/topics/transcriptomics/faqs/transcript.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-im-using-the-same-training-data-tools-and-parameters-as-the-tutorial-but-i-get-a-different-number-of-transcripts-with-a-significant-change-in-gene-expression-between-the-g1e-and-megakaryocyte-cellular-states-why"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: I’m using the same training data, tools, and parameters as the tutorial, but I get a different number of transcripts with a significant change in gene <span class="notranslate">expression</span> between the G1E and megakaryocyte cellular states. Why?</h3>  <p>This is okay! Many aspects of the tutorial can potentially affect the exact results you obtain. For example, the reference genome version used and versions of tools. It’s less important to get the exact results shown in the tutorial, and more important to understand the concepts so you can apply them to your own data.</p></blockquote>
+
+
+
+
+
+ <br><br> 
+<h2 id="RNA-seq"> <a href="#RNA-seq"> <span class="notranslate">Rna</span>-seq </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> I have <span class="notranslate">RNA</span>seq data for pilot experiment for differential <span class="notranslate">expression</span> in host associated bacterium. One dataset is obtained from bacterial culture, but the other comes from bacteria obtained from the host (plant). I expect strong contamination of the second sample with host <span class="notranslate">RNA</span> <span class="notranslate">reads</span>. Should I filter out <span class="notranslate">reads</span> from the host before performing the analysis (if so, what tools I could use for that), or could I just ignore the contamination (since I will use the bacterial genome to map the <span class="notranslate">reads</span>, it will disregard any host associated <span class="notranslate">reads</span>)? <a href="/training-material/topics/transcriptomics/tutorials/ref-based/faqs/rnaseq_data.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-i-have-rnaseq-data-for-pilot-experiment-for-differential-expression-in-host-associated-bacterium-one-dataset-is-obtained-from-bacterial-culture-but-the-other-comes-from-bacteria-obtained-from-the-host-plant-i-expect-strong-contamination-of-the-second-sample-with-host-rna-reads-should-i-filter-out-reads-from-the-host-before-performing-the-analysis-if-so-what-tools-i-could-use-for-that-or-could-i-just-ignore-the-contamination-since-i-will-use-the-bacterial-genome-to-map-the-reads-it-will-disregard-any-host-associated-reads"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: I have <span class="notranslate">RNA</span>seq data for pilot experiment for differential <span class="notranslate">expression</span> in host associated bacterium. One dataset is obtained from bacterial culture, but the other comes from bacteria obtained from the host (plant). I expect strong contamination of the second sample with host <span class="notranslate">RNA</span> <span class="notranslate">reads</span>. Should I filter out <span class="notranslate">reads</span> from the host before performing the analysis (if so, what tools I could use for that), or could I just ignore the contamination (since I will use the bacterial genome to map the <span class="notranslate">reads</span>, it will disregard any host associated <span class="notranslate">reads</span>)?</h3>  <p>You could map both sets of <span class="notranslate">reads</span> to the reference genome. You are right - no pre-filtering required as the host <span class="notranslate">reads</span> shouldn’t map to the ref and will be excluded.</p></blockquote>
+
+
+
+
+
+ <br><br> 
 <h2 id="analysis"> <a href="#analysis"> Analysis </a></h2>
 <hr/>
 
@@ -284,7 +327,7 @@
 
 
 
-<h3 class="faq-area"> How can I adapt this tutorial to my own data? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/faqs/adapting_to_different_data.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+<h3 class="faq-area"> How can I adapt this tutorial to my own data? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/faqs/adapting_to_different_data.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><p>If you would like to run this analysis on your own data, make sure to check which V-region was sequenced. In this tutorial, we sequenced the V4 region, and used a corresponding reference for just this region. If you sequenced another V-region, please use an appropriate reference (either the full SILVA reference, or the SILVA reference specific for your region). Similarly, the <code class="language-plaintext highlighter-rouge">Screen.seqs</code> step after the alignment filtered on start and end coordinates of the alignments. These will have to be adjusted to your V-region.</p>
 
@@ -293,7 +336,7 @@
 
 
 
-<h3 class="faq-area"> How can I adapt this tutorial to my own data? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/faqs/adapting_to_different_data.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+<h3 class="faq-area"> How can I adapt this tutorial to my own data? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/faqs/adapting_to_different_data.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><p>If you would like to run this analysis on your own data, make sure to check which V-region was sequenced. In this tutorial, we sequenced the V4 region, and used a corresponding reference for just this region. If you sequenced another V-region, please use an appropriate reference (either the full SILVA reference, or the SILVA reference specific for your region). Similarly, the <code class="language-plaintext highlighter-rouge">Screen.seqs</code> step after the alignment filtered on start and end coordinates of the alignments. These will have to be adjusted to your V-region.</p>
 
@@ -323,6 +366,15 @@ When you get a red dataset in your history, it means something went wrong. But h
 <h3 class="faq-area"> Creating an account <a href="/training-material/faqs/galaxy/creating_account.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 To get access to all features of a <span class="notranslate">Galaxy</span> instance, you need to create an account.
 <!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-creating-an-account"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Creating an account</h3>  <p>To create an account:</p>  <ol>  <li>Click <strong>Login or Register</strong></li>  <li>At the bottom of the form click <strong>Register here</strong></li>  <li>Fill the form and click <strong>Create</strong></li></ol></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> I got slightly different numbers than were in the tutorial <a href="/training-material/topics/introduction/faqs/ucsc.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-i-got-slightly-different-numbers-than-were-in-the-tutorial"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: I got slightly different numbers than were in the tutorial</h3>  <p>This tutorial uses UCSC which is constantly updating it’s data! As a result it gets outdated very quickly before we can update it :( But it’s ok! It’s expected here to get different numbers.</p></blockquote>
 
 
 
@@ -516,18 +568,18 @@ Contributing to <span class="notranslate">Galaxy</span> is a multi-step proces, 
 
 
 
-<h3 class="faq-area"> Importing via links <a href="/training-material/faqs/galaxy/datasets_import_via_link.html"><i class="fas fa-external-link-alt"></i></a> </h3>
-
-<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-importing-via-links"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Importing via links</h3>  <ul>  <li>Copy the link location</li>  <li>    <p>Open the <span class="notranslate">Galaxy</span> Upload Manager (<i class="fas fa-upload" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-upload</span> on the top-right of the tool panel)</p>  </li>  <li>Select <strong>Paste/Fetch Data</strong></li>  <li>    <p>Paste the link into the text field</p>  </li>  <li>    <p>Press <strong>Start</strong></p>  </li>  <li>    <p><strong>Close</strong> the window</p>  </li>  <li>By default, <span class="notranslate">Galaxy</span> uses the URL as the name, so rename the files with a more useful name.</li></ul></blockquote>
-
-
-
-
-
-
 <h3 class="faq-area"> Importación por medio de enlaces <a href="/training-material/faqs/galaxy-es/datasets_import_via_link.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-importación-por-medio-de-enlaces"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Importación por medio de enlaces</h3>  <ul>  <li>Copia los enlaces</li>  <li>    <p>Abre el manejador de carga de datos de <span class="notranslate">Galaxy</span> (<i class="fas fa-upload" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-upload</span> en la parte superior derecha del panel de herramientas)</p>  </li>  <li>Selecciona ‘Pegar/Traer datos’ <strong>Paste/Fetch Data</strong></li>  <li>    <p>Copia los enlaces en el campo de textos</p>  </li>  <li>    <p>Presiona ‘Iniciar’ <strong>Start</strong></p>  </li>  <li>    <p><strong>Close</strong> Cierra la ventana.</p>  </li>  <li><span class="notranslate">Galaxy</span> utiliza los URLs como nombres de forma predeterminada , así que los tendrás que cambiar a algunos que sean más útiles o informativos.the window</li></ul></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Importing via links <a href="/training-material/faqs/galaxy/datasets_import_via_link.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-importing-via-links"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Importing via links</h3>  <ul>  <li>Copy the link location</li>  <li>    <p>Open the <span class="notranslate">Galaxy</span> Upload Manager (<i class="fas fa-upload" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-upload</span> on the top-right of the tool panel)</p>  </li>  <li>Select <strong>Paste/Fetch Data</strong></li>  <li>    <p>Paste the link into the text field</p>  </li>  <li>    <p>Press <strong>Start</strong></p>  </li>  <li>    <p><strong>Close</strong> the window</p>  </li>  <li>By default, <span class="notranslate">Galaxy</span> uses the URL as the name, so rename the files with a more useful name.</li></ul></blockquote>
 
 
 
@@ -566,18 +618,18 @@ Tags can help you to better organize your history and track datasets.
 
 
 
-<h3 class="faq-area"> Changing the datatype <a href="/training-material/faqs/galaxy/datasets_change_datatype.html"><i class="fas fa-external-link-alt"></i></a> </h3>
-<span class="notranslate">Galaxy</span> will try to autodetect the datatype of your files, but you may need to manually set this occasionally.
-<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-changing-the-datatype"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Changing the datatype</h3>  <ul>  <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>  <li>In the central panel, click on the <i class="fas fa-database" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-chart-select-data</span> <strong>Datatypes</strong> tab on the top</li>  <li>Select  your desired datatype</li>  <li>Click the <strong>Save</strong> button</li></ul></blockquote>
-
-
-
-
-
-
 <h3 class="faq-area"> Cambiar el tipo de datos <a href="/training-material/faqs/galaxy-es/datasets_change_datatype.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 <span class="notranslate">Galaxy</span> will try to autodetect the datatype of your files, but you may need to manually set this occasionally.
 <!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-cambiar-el-tipo-de-datos"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Cambiar el tipo de datos</h3>  <ul>  <li>Selecciona sobre el <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>icono del lápiz</strong> para editar los atributos del conjunto de datos</li>  <li>Selecciona en la pestaña <i class="fas fa-database" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-chart-select-data</span> <strong>Datatypes</strong> en la parte superior del panel central</li>  <li>Selecciona  tu tipo de datos</li>  <li>Da clic en el botón <strong>Change datatype</strong></li></ul></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Changing the datatype <a href="/training-material/faqs/galaxy/datasets_change_datatype.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+<span class="notranslate">Galaxy</span> will try to autodetect the datatype of your files, but you may need to manually set this occasionally.
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-changing-the-datatype"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Changing the datatype</h3>  <ul>  <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>  <li>In the central panel, click on the <i class="fas fa-database" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-chart-select-data</span> <strong>Datatypes</strong> tab on the top</li>  <li>Select  your desired datatype</li>  <li>Click the <strong>Save</strong> button</li></ul></blockquote>
 
 
 
@@ -647,23 +699,60 @@ Some datasets can be transformed into a different format. <span class="notransla
 
 
  <br><br> 
-<h2 id="features"> <a href="#features"> Features </a></h2>
+<h2 id="estimation of strandedness"> <a href="#estimation of strandedness"> Estimation of strandedness </a></h2>
 <hr/>
 
 
 
-<h3 class="faq-area"> Using the Scratchbook to view multiple datasets <a href="/training-material/faqs/galaxy/features_scratchbook.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+<h3 class="faq-area"> Infer experiment, is it ever used in practice? I mean, most often you are aware if the <span class="notranslate">RNA</span>-seq data is stranded or not in the first place, right, because you sequenced it yourself or ordered it from a company. <a href="/training-material/topics/transcriptomics/tutorials/ref-based/faqs/infer_experiments.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
-<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-using-the-scratchbook-to-view-multiple-datasets"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Using the Scratchbook to view multiple datasets</h3>  <p>If you would like to view two or more datasets at once, you can use the <strong>Scratchbook</strong> feature in <span class="notranslate">Galaxy</span>:</p>  <ol>  <li><strong>Click</strong> on the <em>Scratchbook</em> icon <i class="fas fa-th" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-scratchbook</span> on the top menu bar.    <ul>      <li>You should see a little checkmark on the icon now</li>    </ul>  </li>  <li><strong>View</strong> <i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-eye</span> a dataset by clicking on the eye icon <i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-eye</span> to view the output    <ul>      <li>You should see the output in a window overlayed over <span class="notranslate">Galaxy</span></li>      <li>You can resize this window by dragging the bottom-right corner</li>    </ul>  </li>  <li><strong>Click</strong> outside the file to exit the Scratchbook</li>  <li><strong>View</strong> <i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-eye</span> a second dataset from your history    <ul>      <li>You should now see a second window with the new dataset</li>      <li>This makes it easier to compare the two outputs</li>    </ul>  </li>  <li>Repeat this for as many files as you would like to compare</li>  <li>You can turn off the <strong>Scratchbook</strong> <i class="fas fa-th" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-scratchbook</span> by clicking on the icon again</li></ol></blockquote>
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-infer-experiment-is-it-ever-used-in-practice-i-mean-most-often-you-are-aware-if-the-rna-seq-data-is-stranded-or-not-in-the-first-place-right-because-you-sequenced-it-yourself-or-ordered-it-from-a-company"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Infer experiment, is it ever used in practice? I mean, most often you are aware if the <span class="notranslate">RNA</span>-seq data is stranded or not in the first place, right, because you sequenced it yourself or ordered it from a company.</h3>  <p>This can happen in cases where you get the data from someone else, and they don’t know.</p></blockquote>
 
 
 
+
+
+
+<h3 class="faq-area"> I am trying to check the strandedness of my libraries and I get unequal numbers in the infer experiments, but in the IGV it looks like it is unstranded. What does this mean? <a href="/training-material/topics/transcriptomics/tutorials/ref-based/faqs/strandedness.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-i-am-trying-to-check-the-strandedness-of-my-libraries-and-i-get-unequal-numbers-in-the-infer-experiments-but-in-the-igv-it-looks-like-it-is-unstranded-what-does-this-mean"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: I am trying to check the strandedness of my libraries and I get unequal numbers in the infer experiments, but in the IGV it looks like it is unstranded. What does this mean?</h3>  <p>It’s also often the case that elimination of the second strand is not perfect, and there are genuine cases of bidirectional transcription in the genome. 70 / 30 % as in your report is not a good result for a stranded library. You can treat this as a stranded library in your analysis, but for instance you couldn’t make the conclusion that a given gene is actually transcribed from the reverse strand. Likely that the library preparation didn’t work perfectly. This can depend on many factors, one is that you need to completely digest your <span class="notranslate">DNA</span> using a high quality <span class="notranslate">DNa</span>se before doing the reverse transcription.</p></blockquote>
+
+
+
+
+
+ <br><br> 
+<h2 id="extract tool"> <a href="#extract tool"> Extract tool </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> Are UMIs not actually unique? <a href="/training-material/topics/transcriptomics/faqs/umi.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-are-umis-not-actually-unique"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Are UMIs not actually unique?</h3>  <p>Not strictly, but unique enough. The distribution of UMIs should ideally be uniform so that the chance of any two same UMIs capturing the same transcript (via different amplicons) is small. As barcodes have increased in size, the number of UMIs has also increased allowing for UMIs to reach more or less the same numbers of transcripts.</p></blockquote>
+
+
+
+
+
+ <br><br> 
+<h2 id="features"> <a href="#features"> Features </a></h2>
+<hr/>
 
 
 
 <h3 class="faq-area"> UUso del cuaderno de apuntes para ver varios conjuntos de datos <a href="/training-material/faqs/galaxy-es/features_scratchbook.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-uuso-del-cuaderno-de-apuntes-para-ver-varios-conjuntos-de-datos"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: UUso del cuaderno de apuntes para ver varios conjuntos de datos</h3>  <p>Si deseas ver dos o más conjuntos de datos al mismo tiempo, puedes usar la función <strong>Scratchbook</strong> en <span class="notranslate">Galaxy</span>:    1. <strong>Haz clic</strong> en el icono <em>Scratchbook</em> <i class="fas fa-th" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-scratchbook</span> en la barra de menú superior.       - Debería aparecer ver una pequeña marca de verificación en el icono    2. <strong>Ver</strong> <i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-eye</span> un conjunto de datos haciendo clic en el icono de ojo <i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-eye</span> para ver el resultado.       - Deberías ver la salida en una ventana emergente sobre <span class="notranslate">Galaxy</span>       - Puedes cambiar el tamaño de esta ventana arrastrando la esquina inferior derecha    3. <strong>Haz clic</strong> fuera del archivo para salir del Scratchbook    4. <strong>Ver</strong> <i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-eye</span> un segundo conjunto de datos de tu historial       - Ahora deberías poder ver una segunda ventana con el nuevo conjunto de datos       - Esto hace que sea más fácil comparar las dos salidas.    5. Repite estos pasos para todos los archivos que desees comparar.    6. Puedes desactivar <strong>Scratchbook</strong> <i class="fas fa-th" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-scratchbook</span> haciendo clic en el icono nuevamente.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Using the Scratchbook to view multiple datasets <a href="/training-material/faqs/galaxy/features_scratchbook.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-using-the-scratchbook-to-view-multiple-datasets"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Using the Scratchbook to view multiple datasets</h3>  <p>If you would like to view two or more datasets at once, you can use the <strong>Scratchbook</strong> feature in <span class="notranslate">Galaxy</span>:</p>  <ol>  <li><strong>Click</strong> on the <em>Scratchbook</em> icon <i class="fas fa-th" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-scratchbook</span> on the top menu bar.    <ul>      <li>You should see a little checkmark on the icon now</li>    </ul>  </li>  <li><strong>View</strong> <i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-eye</span> a dataset by clicking on the eye icon <i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-eye</span> to view the output    <ul>      <li>You should see the output in a window overlayed over <span class="notranslate">Galaxy</span></li>      <li>You can resize this window by dragging the bottom-right corner</li>    </ul>  </li>  <li><strong>Click</strong> outside the file to exit the Scratchbook</li>  <li><strong>View</strong> <i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-eye</span> a second dataset from your history    <ul>      <li>You should now see a second window with the new dataset</li>      <li>This makes it easier to compare the two outputs</li>    </ul>  </li>  <li>Repeat this for as many files as you would like to compare</li>  <li>You can turn off the <strong>Scratchbook</strong> <i class="fas fa-th" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-scratchbook</span> by clicking on the icon again</li></ol></blockquote>
 
 
 
@@ -684,7 +773,7 @@ Excel is a fantastic tool and a great place to build simple analysis models, but
 
 
 
-<h3 class="faq-area"> Where can I read more about this analysis? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/faqs/more_info.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+<h3 class="faq-area"> Where can I read more about this analysis? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/faqs/more_info.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><p>This tutorial was adapted from the <a href="https://mothur.org/wiki/miseq_sop/">mothur MiSeq SOP</a> created by the Schloss lab. Here you can find more information about the mothur tools and file formats. Their <a href="https://mothur.org/wiki/frequently_asked_questions/">FAQ page</a> and <a href="https://forum.mothur.org/">Help Forum</a> are also quite useful!</p>
 
@@ -693,7 +782,7 @@ Excel is a fantastic tool and a great place to build simple analysis models, but
 
 
 
-<h3 class="faq-area"> Where can I read more about this analysis? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/faqs/more_info.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+<h3 class="faq-area"> Where can I read more about this analysis? <a href="/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/faqs/more_info.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><p>This tutorial was adapted from the <a href="https://mothur.org/wiki/miseq_sop/">mothur MiSeq SOP</a> created by the Schloss lab. Here you can find more information about the mothur tools and file formats. Their <a href="https://mothur.org/wiki/frequently_asked_questions/">FAQ page</a> and <a href="https://forum.mothur.org/">Help Forum</a> are also quite useful!</p>
 
@@ -821,15 +910,6 @@ Histories are an important part of <span class="notranslate">Galaxy</span>, most
 
 
 
-<h3 class="faq-area"> Sharing your History <a href="/training-material/faqs/galaxy/histories_sharing.html"><i class="fas fa-external-link-alt"></i></a> </h3>
-You can share your work in <span class="notranslate">Galaxy</span>. There are various ways you can give access one of your histories to other users.
-<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-sharing-your-history"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Sharing your History</h3>  <p>Sharing your history allows others to import and access the datasets, parameters, and steps of your history.</p>  <ol>  <li><strong>Share via link</strong>    <ul>      <li>Open the <strong>History Options</strong> <i class="fas fa-cog" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-gear</span> menu (gear icon) at the top of your history panel        <ul>          <li><i class="fas fa-toggle-on" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-toggle</span> <strong>Make History accessible</strong></li>          <li>A <strong>Share Link</strong> will appear that you give to others</li>        </ul>      </li>      <li>Anybody who has this link can view and copy your history</li>    </ul>  </li>  <li><strong>Publish your history</strong>    <ul>      <li><i class="fas fa-toggle-on" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-toggle</span> <strong>Make History publicly available in Published Histories</strong></li>      <li>Anybody on this <span class="notranslate">Galaxy</span> server will see your history listed under the <em>Shared Data</em> menu</li>    </ul>  </li>  <li><strong>Share only with another user</strong>.    <ul>      <li>Click the <strong>Share with a user</strong> button at the bottom</li>      <li>Enter an email address for the user you want to share with</li>      <li>Your history will be shared only with this user.</li>    </ul>  </li>  <li><strong>Finding histories others have shared with me</strong>    <ul>      <li>Click on <strong>User</strong> menu on the top bar</li>      <li>Select <strong>Histories shared with me</strong></li>      <li>Here you will see all the histories others have shared with you directly</li>    </ul>  </li></ol>  <p><strong>Note:</strong> If you want to make changes to your history without affecting the shared version, make a copy by going to <i class="fas fa-cog" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-gear</span> <em>History options</em> icon in your history and clicking <em>Copy</em></p></blockquote>
-
-
-
-
-
-
 <h3 class="faq-area"> Compartiendo un historial <a href="/training-material/faqs/galaxy-es/histories_sharing.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 Puedes compartir tu trabajo en <span class="notranslate">Galaxy</span>. Hay varias formas de dar acceso a tus historiales a otros usuarios.
 <!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-compartiendo-un-historial"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Compartiendo un historial</h3>  <p>Compartir tu historial permite a otros importar y acceder a los conjuntos de datos, parámetros y pasos de tu historial.</p>  <ol>  <li><strong>Compartir a través de un enlace</strong>    <ul>      <li>Abre el menú <strong>Opciones de historial</strong> <i class="fas fa-cog" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-gear</span> (icono de engranaje) en la parte superior del panel de historial        <ul>          <li><i class="fas fa-toggle-on" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-toggle</span> <strong>Hacer que el historial sea accesible</strong></li>          <li>Aparecerá un <strong>Compartir enlace</strong> que puedes dar a otros usuarios.</li>        </ul>      </li>      <li>Cualquiera que tenga este enlace puede ver y copiar tu historial.</li>    </ul>  </li>  <li><strong>Publica tu historial</strong>    <ul>      <li><i class="fas fa-toggle-on" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-toggle</span> <strong>Hacer que el historial esté disponible públicamente en Historias publicadas</strong></li>      <li>Cualquiera en este servidor <span class="notranslate">Galaxy</span> podrá ver tu historial en el menú <em>Datos compartidos</em></li>    </ul>  </li>  <li><strong>Comparte solo con otro usuario</strong>.    <ul>      <li>Haz clic en el botón <strong>Compartir con un usuario</strong> en la parte inferior</li>      <li>Ingresa una dirección de correo electrónico del usuario con el que deseas compartir</li>      <li>Tu historial se compartirá solo con este usuario.</li>    </ul>  </li>  <li><strong>Encontrar historiales que otros han compartido conmigo</strong>    <ul>      <li>Haz clic en el menú <strong>Usuario</strong> en la barra superior</li>      <li>Selecciona <strong>Historiales compartidos conmigo</strong></li>      <li>Aquí verás todos los historiales que otros han compartido contigo directamente** Nota: ** Si deseas realizar cambios en tu historial sin afectar la versión compartida, crea una copia mediante al ícono <i class="fas fa-cog" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-gear</span> <em>Opciones de historial</em> en tu historial y haciendo clic en <em>Copiar</em></li>    </ul>  </li></ol></blockquote>
@@ -839,9 +919,32 @@ Puedes compartir tu trabajo en <span class="notranslate">Galaxy</span>. Hay vari
 
 
 
+<h3 class="faq-area"> Sharing your History <a href="/training-material/faqs/galaxy/histories_sharing.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+You can share your work in <span class="notranslate">Galaxy</span>. There are various ways you can give access one of your histories to other users.
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-sharing-your-history"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Sharing your History</h3>  <p>Sharing your history allows others to import and access the datasets, parameters, and steps of your history.</p>  <ol>  <li><strong>Share via link</strong>    <ul>      <li>Open the <strong>History Options</strong> <i class="fas fa-cog" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-gear</span> menu (gear icon) at the top of your history panel        <ul>          <li><i class="fas fa-toggle-on" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-toggle</span> <strong>Make History accessible</strong></li>          <li>A <strong>Share Link</strong> will appear that you give to others</li>        </ul>      </li>      <li>Anybody who has this link can view and copy your history</li>    </ul>  </li>  <li><strong>Publish your history</strong>    <ul>      <li><i class="fas fa-toggle-on" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-toggle</span> <strong>Make History publicly available in Published Histories</strong></li>      <li>Anybody on this <span class="notranslate">Galaxy</span> server will see your history listed under the <em>Shared Data</em> menu</li>    </ul>  </li>  <li><strong>Share only with another user</strong>.    <ul>      <li>Click the <strong>Share with a user</strong> button at the bottom</li>      <li>Enter an email address for the user you want to share with</li>      <li>Your history will be shared only with this user.</li>    </ul>  </li>  <li><strong>Finding histories others have shared with me</strong>    <ul>      <li>Click on <strong>User</strong> menu on the top bar</li>      <li>Select <strong>Histories shared with me</strong></li>      <li>Here you will see all the histories others have shared with you directly</li>    </ul>  </li></ol>  <p><strong>Note:</strong> If you want to make changes to your history without affecting the shared version, make a copy by going to <i class="fas fa-cog" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-gear</span> <em>History options</em> icon in your history and clicking <em>Copy</em></p></blockquote>
+
+
+
+
+
+
 <h3 class="faq-area"> Undeleting history <a href="/training-material/faqs/galaxy/histories_undelete.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 undelete your deleted histories
 <!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-undeleting-history"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Undeleting history</h3>  <ul>  <li>Click on <strong>User</strong> then select <strong>Histories</strong></li>  <li>Click on <strong>Advanced search</strong> on the top left side below  <strong>Saved Histories</strong></li>  <li>On <strong>Status</strong> click <strong>Deleted</strong></li>  <li>Select the history you want to undelete using the <strong>checkbox</strong> on the left side</li>  <li>Click <strong>Undelete</strong> button below the deleted histories</li></ul></blockquote>
+
+
+
+
+
+ <br><br> 
+<h2 id="history"> <a href="#history"> History </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> My jobs are not running / I cannot see the history overview menu <a href="/training-material/topics/introduction/faqs/login.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-my-jobs-are-not-running--i-cannot-see-the-history-overview-menu"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: My jobs are not running / I cannot see the history overview menu</h3>  <p>Please make sure you are logged in. At the top menu bar, you should see a section labeled “User”. If you see “Login/Register” here you are not logged in.</p></blockquote>
 
 
 
@@ -1089,6 +1192,29 @@ undelete your deleted histories
 
 
  <br><br> 
+<h2 id="mapping"> <a href="#mapping"> <span class="notranslate">Mapping</span> </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> Is it possible to visualize the <span class="notranslate">RNA</span> STAR bam file using the JBrowse tool? <a href="/training-material/topics/transcriptomics/tutorials/ref-based/faqs/rnastar_bam.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-is-it-possible-to-visualize-the-rna-star-bam-file-using-the-jbrowse-tool"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Is it possible to visualize the <span class="notranslate">RNA</span> STAR bam file using the JBrowse tool?</h3>  <p>Yes, that should work.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> I am using the <span class="notranslate">RNA</span> STAR tool to map my <span class="notranslate">reads</span> on the reference genome. while filling in the details for , I have to fill in "Length of the genomic sequence around annotated junctions", which apparently has to be 36. I'm lost for a moment why this is 36, what is meant by it, and why is it relevant? Does anyone have any ideas? Why should it be the length of the <span class="notranslate">reads</span> -1? <a href="/training-material/topics/transcriptomics/tutorials/ref-based/faqs/rnastar_tool.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-i-am-using-the-rna-star-tool-to-map-my-reads-on-the-reference-genome-while-filling-in-the-details-for--i-have-to-fill-in-length-of-the-genomic-sequence-around-annotated-junctions-which-apparently-has-to-be-36-im-lost-for-a-moment-why-this-is-36-what-is-meant-by-it-and-why-is-it-relevant-does-anyone-have-any-ideas-why-should-it-be-the-length-of-the-reads--1"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: I am using the <span class="notranslate">RNA</span> STAR tool to map my <span class="notranslate">reads</span> on the reference genome. while filling in the details for , I have to fill in “Length of the genomic sequence around annotated junctions”, which apparently has to be 36. I’m lost for a moment why this is 36, what is meant by it, and why is it relevant? Does anyone have any ideas? Why should it be the length of the <span class="notranslate">reads</span> -1?</h3>  <p><span class="notranslate">RNA</span> STAR is using the gene model to create the database of splice junctions, and that these don’t “need” to have a length longer than the <span class="notranslate">reads</span> (37bp).</p></blockquote>
+
+
+
+
+
+ <br><br> 
 <h2 id="markdown"> <a href="#markdown"> Markdown </a></h2>
 <hr/>
 
@@ -1114,6 +1240,87 @@ undelete your deleted histories
  <br><br> 
 <h2 id="metaproteomics"> <a href="#metaproteomics"> Metaproteomics </a></h2>
 <hr/>
+
+
+
+<h3 class="faq-area"> How does one compare metaproteomics measurements from two experimental conditions? <a href="/training-material/topics/proteomics/faqs/comparing_measurement.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-how-does-one-compare-metaproteomics-measurements-from-two-experimental-conditions"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: How does one compare metaproteomics measurements from two experimental conditions?</h3>  <p>For comparing taxonomy composition or functional content of two conditions in metaproteomics or metatranscriptomics studies, users are recommended to use metaQuantome. GTN tutorials for metaQuantome are available <a href="/training-material/topics/proteomics/">in the proteomics topic.</a></p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> How does one convert RAW files to MGF peak lists within <span class="notranslate">Galaxy</span>? <a href="/training-material/topics/proteomics/faqs/convert_to_MGF.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-how-does-one-convert-raw-files-to-mgf-peak-lists-within-galaxy"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: How does one convert RAW files to MGF peak lists within <span class="notranslate">Galaxy</span>?</h3>  <p><span class="notranslate">Galaxy</span> has implemented msconvert tool so that RAW files from Thermo instruments can be converted into MGF or mzML formats.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> I have FASTQ files from metagenomics or metatranscriptomics datasets? How can I convert them into a protein FASTA file for metaproteomics searches? <a href="/training-material/topics/proteomics/faqs/converting_FASTA.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-i-have-fastq-files-from-metagenomics-or-metatranscriptomics-datasets-how-can-i-convert-them-into-a-protein-fasta-file-for-metaproteomics-searches"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: I have FASTQ files from metagenomics or metatranscriptomics datasets? How can I convert them into a protein FASTA file for metaproteomics searches?</h3>  <p><span class="notranslate">Galaxy</span> has a tool named Sixgill that can be used to convert the nucleic acid sequences to ‘metapeptide’ sequences. There are other options available within <span class="notranslate">Galaxy</span> such as the <span class="notranslate">Galaxy</span>Graph approach and Metagenome Binning, Assembly and Annotation <span class="notranslate">Workflow</span>. Please <a href="https://help.galaxyproject.org/">contact us</a>, if you need assistance.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> What software tools are available to determine taxonomic composition from mass spectrometry data? <a href="/training-material/topics/proteomics/faqs/determine_taxonomic_composition.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-what-software-tools-are-available-to-determine-taxonomic-composition-from-mass-spectrometry-data"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: What software tools are available to determine taxonomic composition from mass spectrometry data?</h3>  <p>Within the <span class="notranslate">Galaxy</span> framework we recommend the use of Unipept software that uses NCBI taxonomy and UniProt databases to detect unique peptides for taxonomy. Other software tools such as MetaTryp 2.0 (PMID: 32897080) can also be used to determine the taxonomic composition of the metaproteomics datasets.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Why do we do dimension reduction and then clustering? Why not just cluster on the actual data? <a href="/training-material/topics/proteomics/faqs/functional_analysis_tools.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-why-do-we-do-dimension-reduction-and-then-clustering-why-not-just-cluster-on-the-actual-data"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Why do we do dimension reduction and then clustering? Why not just cluster on the actual data?</h3>  <p>Within the <span class="notranslate">Galaxy</span> framework we recommend the use of Unipept software that uses UniProt databases and annotation to detect proteins (EC terms) and functional groups such as GO Ontology and InterPro terms. Other software tools such as <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0241503">EggNOG Mapper</a> are also available within the <span class="notranslate">Galaxy</span> platform. Other software such as MEGAN5, MetaGOmics, MetaProteomeAnalyzer (MPA), ProPHAnE also generate functional outputs.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Can I use these workflows on datasets generated from our laboratory? <a href="/training-material/topics/proteomics/faqs/reusing_workflows.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-can-i-use-these-workflows-on-datasets-generated-from-our-laboratory"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Can I use these workflows on datasets generated from our laboratory?</h3>  <p>Yes, the workflows can be used on other datasets as well. However, you will need to consider data acquisition and sample preparation methods so that the tool parameters can be adjusted accordingly.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Which search algorithms are recommended for searching the metaproteomics data? <a href="/training-material/topics/proteomics/faqs/search_algorithms.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-which-search-algorithms-are-recommended-for-searching-the-metaproteomics-data"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Which search algorithms are recommended for searching the metaproteomics data?</h3>  <p>SearchGUI supports search using nine search algorithms (X! Tandem. MS-GF+. OMSSA, Comet, Tide, MyriMatch, MS_Amanda, DirecTag and Novor). For this tutorial, we have used the first two search algorithms in the list. In our hands, the first four search algorithms have given us the most optimal results.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> I have a really large search database, what search strategies do you recommend for searching my mass spectrometry dataset? <a href="/training-material/topics/proteomics/faqs/search_strategies.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-i-have-a-really-large-search-database-what-search-strategies-do-you-recommend-for-searching-my-mass-spectrometry-dataset"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: I have a really large search database, what search strategies do you recommend for searching my mass spectrometry dataset?</h3>  <p>Readers are encouraged to use the database sectioning approach described by <a href="https://pubmed.ncbi.nlm.nih.gov/32396365/">Praveen Kumar et al</a> and available within <span class="notranslate">Galaxy</span>. Readers are also encouraged to consider other approaches such as MetaNovo (not yet available in <span class="notranslate">Galaxy</span>). In absence of any database or taxonomic information about the microbiome dataset, other methods such as COMPIL 2.0  and De novo search methods can also be considered.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> What other methods are available to study the functional state of the microbiome within <span class="notranslate">Galaxy</span>? <a href="/training-material/topics/proteomics/faqs/studying_microbiome_state.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-what-other-methods-are-available-to-study-the-functional-state-of-the-microbiome-within-galaxy"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: What other methods are available to study the functional state of the microbiome within <span class="notranslate">Galaxy</span>?</h3>  <p>Other software such as EggNOG Mapper, MEGAN5, MetaGOmics, MetaProteomeAnalyzer (MPA) and  ProPHAnE also generate <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0241503">functional outputs</a>.</p></blockquote>
+
+
+
 
 
 
@@ -1143,6 +1350,20 @@ undelete your deleted histories
 <h3 class="faq-area"> Sustainability of the training-material and metadata <a href="/training-material/faqs/gtn/gtn_sustainability.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><p>This repository is hosted on <a href="https://github.com/">GitHub</a> using git as a <a href="https://en.wikipedia.org/wiki/Distributed_version_control">DVCS</a>. Therefore the community is hosting backups of thisrepository in a decentralised way. The repository is self-contained and contains all needed content and all metadata.In addition we mirror snapshops of this repo on <a href="http://zenodo.org">Zenodo</a>.</p>
+
+
+
+
+
+ <br><br> 
+<h2 id="recommended browser"> <a href="#recommended browser"> Recommended browser </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> UCSC - I fetched data from a remote website but now I’m logged out of <span class="notranslate">Galaxy</span> and my data is gone? <a href="/training-material/topics/introduction/faqs/fetched_data.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-ucsc---i-fetched-data-from-a-remote-website-but-now-im-logged-out-of-galaxy-and-my-data-is-gone"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: UCSC - I fetched data from a remote website but now I’m logged out of <span class="notranslate">Galaxy</span> and my data is gone?</h3>  <p>This is a known bug with Chrome + <span class="notranslate">Galaxy</span>, we’re working on it <a href="https://github.com/galaxyproject/galaxy/issues/11374"><span class="notranslate">galaxy</span>project/<span class="notranslate">galaxy</span>#11374</a>. For now we can recommend using Firefox (known to work) or trying another browser.</p></blockquote>
 
 
 
@@ -1200,18 +1421,18 @@ undelete your deleted histories
 
 
 
-<h3 class="faq-area"> Re-running a tool <a href="/training-material/faqs/galaxy/tools_rerun.html"><i class="fas fa-external-link-alt"></i></a> </h3>
-
-<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-re-running-a-tool"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Re-running a tool</h3>  <ol>  <li><strong>Expand</strong> one of the output datasets of the tool (by clicking on it)</li>  <li><strong>Click</strong> re-run <i class="fas fa-sync-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-refresh</span> the tool</li></ol>  <p>This is useful if you want to run the tool again but with slightly different paramters, or if you just want to check which parameter setting you used.</p></blockquote>
-
-
-
-
-
-
 <h3 class="faq-area"> Para volver a ejecutar una herramienta <a href="/training-material/faqs/galaxy-es/tools_rerun.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-para-volver-a-ejecutar-una-herramienta"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Para volver a ejecutar una herramienta</h3>  <ol>  <li><strong>Expande</strong> uno de los conjuntos de datos de la salida de la herramienta haciendo clic sobre él</li>  <li><strong>Selecciona</strong> volver a ejecutar <i class="fas fa-sync-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-refresh</span> de la herramienta</li></ol>  <p>Esto es de utilidad si quieres volver a correr la herramienta variando ligeramente los valores de los parámetros, o si deseas verificar la configuración de parámetros que utilizaste.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Re-running a tool <a href="/training-material/faqs/galaxy/tools_rerun.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-re-running-a-tool"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Re-running a tool</h3>  <ol>  <li><strong>Expand</strong> one of the output datasets of the tool (by clicking on it)</li>  <li><strong>Click</strong> re-run <i class="fas fa-sync-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-refresh</span> the tool</li></ol>  <p>This is useful if you want to run the tool again but with slightly different paramters, or if you just want to check which parameter setting you used.</p></blockquote>
 
 
 
@@ -1230,6 +1451,52 @@ undelete your deleted histories
 <h3 class="faq-area"> Select multiple datasets <a href="/training-material/faqs/galaxy/tools_select_multiple_datasets.html"><i class="fas fa-external-link-alt"></i></a> </h3>
 
 <!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-select-multiple-datasets"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Select multiple datasets</h3>  <ol>  <li>Click on <i class="far fa-copy" aria-hidden="true"></i><span class="visually-hidden">param-files</span> <strong>Multiple datasets</strong></li>  <li>Select several files by keeping the <kbd>Ctrl</kbd> (or<kbd>COMMAND</kbd>) key pressed and clicking on the files of interest</li></ol></blockquote>
+
+
+
+
+
+ <br><br> 
+<h2 id="transcriptome analysis of Arabidopsis thaliana"> <a href="#transcriptome analysis of Arabidopsis thaliana"> Transcriptome analysis of arabidopsis thaliana </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> Could I use a different p-adj value for filtering differentially expressed genes? <a href="/training-material/topics/transcriptomics/faqs/p_adj.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-could-i-use-a-different-p-adj-value-for-filtering-differentially-expressed-genes"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Could I use a different p-adj value for filtering differentially expressed genes?</h3>  <p>Yes, you can modify this value, to perform a more rigorous analysis, or extend the range of genes selected. A higher p-value will significantly increase the number of genes selected, at the expense of including possible false positives.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> Could I use a different tool for performing the quantification step? <a href="/training-material/topics/transcriptomics/faqs/quantification.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-could-i-use-a-different-tool-for-performing-the-quantification-step"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Could I use a different tool for performing the quantification step?</h3>  <p>There are some alte<span class="notranslate">rna</span>tives to Salmon for reference transcriptome-based <span class="notranslate">RNA</span> quantification. Kallisto and Sailfish use a similar approach, known as pseudoalignment.</p></blockquote>
+
+
+
+
+
+ <br><br> 
+<h2 id="user interface"> <a href="#user interface"> User interface </a></h2>
+<hr/>
+
+
+
+<h3 class="faq-area"> I can’t find the “Analyze Data” button <a href="/training-material/topics/introduction/faqs/analyze_data.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-i-cant-find-the-analyze-data-button"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: I can’t find the “Analyze Data” button</h3>  <p>The <span class="notranslate">Galaxy</span> interface has changed a bit recently, “Analyze Data” was always the home button, and now looks like a home icon.</p></blockquote>
+
+
+
+
+
+
+<h3 class="faq-area"> My <span class="notranslate">Galaxy</span> looks different than in the video <a href="/training-material/topics/introduction/faqs/galaxy.html"><i class="fas fa-external-link-alt"></i></a> </h3>
+
+<!--SNIPPET--><blockquote class="tip">  <h3 data-toc-skip id="-tip-my-galaxy-looks-different-than-in-the-video"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: My <span class="notranslate">Galaxy</span> looks different than in the video</h3>  <p><span class="notranslate">Galaxy</span> gets frequent updates, different servers will be running different versions. This is nothing to worry about, just let us know if you can’t find how to perform a task in your <span class="notranslate">Galaxy</span>.</p></blockquote>
 
 
 
@@ -1394,7 +1661,7 @@ When creating a <span class="notranslate">workflow</span> in <span class="notran
         <p>
 The content of the tutorials is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. The website and infrastructure is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>.
 </p>
-        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/ac7ab8c988110518ef30c516cab8ecbd0ab8b056">ac7ab8c988110518ef30c516cab8ecbd0ab8b056</a></p>
+        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/67ee828a81fd3d23eabd1c7154cd28a05a6ce129">67ee828a81fd3d23eabd1c7154cd28a05a6ce129</a></p>
     </div>
 </footer>
 
